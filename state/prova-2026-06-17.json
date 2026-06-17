@@ -1,0 +1,512 @@
+[
+  {
+    "id": "real-unesp-2026-06-17-bio-001",
+    "subject": "Biologia",
+    "topic": "Genetica e heredogramas",
+    "prompt": "Em uma familia, uma doenca autossomica recessiva manifesta-se apenas em individuos homozigotos recessivos. Um casal sem a doenca, mas com um filho afetado, pretende ter outro filho. A probabilidade de essa nova crianca tambem ser afetada e:",
+    "options": {
+      "A": "0%",
+      "B": "25%",
+      "C": "50%",
+      "D": "75%",
+      "E": "100%"
+    },
+    "answer": "B",
+    "explanation": "Como o casal teve um filho afetado por condicao recessiva, ambos devem ser heterozigotos. No cruzamento Aa x Aa, a chance de descendente aa e 1/4, ou 25%.",
+    "source_notes": "Padrao inspirado em questoes objetivas da Unesp sobre heranca mendeliana e probabilidade genetica.",
+    "validation_notes": "Resposta conferida: no cruzamento entre dois heterozigotos, apenas aa expressa o fenotipo recessivo."
+  },
+  {
+    "id": "real-unesp-2026-06-17-bio-002",
+    "subject": "Biologia",
+    "topic": "Ecologia",
+    "prompt": "Em uma area degradada, a cobertura vegetal inicial e formada por especies pioneiras, que modificam o ambiente e favorecem a chegada de outras especies. Esse processo e denominado:",
+    "options": {
+      "A": "eutrofizacao",
+      "B": "sucessao ecologica",
+      "C": "magnificacao trofica",
+      "D": "deriva continental",
+      "E": "convergencia adaptativa"
+    },
+    "answer": "B",
+    "explanation": "Sucessao ecologica e a substituicao gradual de comunidades ao longo do tempo, frequentemente iniciada por especies pioneiras que alteram as condicoes ambientais.",
+    "source_notes": "Padrao inspirado em cobrancas recorrentes da Unesp sobre dinamica de comunidades e impactos ambientais.",
+    "validation_notes": "Resposta conferida: o enunciado descreve claramente substituicao gradual de comunidades."
+  },
+  {
+    "id": "real-unesp-2026-06-17-bio-003",
+    "subject": "Biologia",
+    "topic": "Fisiologia humana",
+    "prompt": "Apos uma refeicao rica em carboidratos, a taxa de glicose no sangue tende a aumentar. Em uma pessoa saudavel, a resposta hormonal mais diretamente relacionada a reducao dessa glicemia e a liberacao de:",
+    "options": {
+      "A": "insulina pelo pancreas",
+      "B": "adrenalina pela tireoide",
+      "C": "glucagon pelo estomago",
+      "D": "bile pelo figado",
+      "E": "hemoglobina pelos rins"
+    },
+    "answer": "A",
+    "explanation": "A insulina, produzida pelo pancreas, favorece a entrada de glicose nas celulas e o armazenamento como glicogenio, reduzindo a glicemia.",
+    "source_notes": "Padrao inspirado em questoes da Unesp que relacionam fisiologia, metabolismo e homeostase.",
+    "validation_notes": "Resposta conferida: insulina e o hormonio hipoglicemiante pancreatico."
+  },
+  {
+    "id": "real-unesp-2026-06-17-bio-004",
+    "subject": "Biologia",
+    "topic": "Biologia celular",
+    "prompt": "Uma celula com intensa producao de proteinas destinadas a secrecao deve apresentar grande desenvolvimento de:",
+    "options": {
+      "A": "lisossomos e centriolos",
+      "B": "reticulo endoplasmatico rugoso e complexo golgiense",
+      "C": "cloroplastos e parede celular",
+      "D": "peroxissomos e flagelos",
+      "E": "vacuo central e plasmodesmos"
+    },
+    "answer": "B",
+    "explanation": "Proteinas secretadas sao sintetizadas em ribossomos aderidos ao reticulo endoplasmatico rugoso e depois processadas e empacotadas pelo complexo golgiense.",
+    "source_notes": "Padrao inspirado em questoes de citologia com associacao entre organelas e funcao celular.",
+    "validation_notes": "Resposta conferida: as duas organelas participam diretamente da sintese e secrecao proteica."
+  },
+  {
+    "id": "real-unesp-2026-06-17-bio-005",
+    "subject": "Biologia",
+    "topic": "Evolucao",
+    "prompt": "O aumento da frequencia de bacterias resistentes apos uso inadequado de antibioticos pode ser explicado porque o medicamento:",
+    "options": {
+      "A": "induz sempre a mesma mutacao em todas as bacterias",
+      "B": "seleciona bacterias resistentes preexistentes, que sobrevivem e se multiplicam",
+      "C": "transforma bacterias em virus resistentes",
+      "D": "impede qualquer transferencia de material genetico",
+      "E": "elimina a variabilidade genetica antes da selecao"
+    },
+    "answer": "B",
+    "explanation": "A resistencia pode existir antes do tratamento. O antibiotico elimina as bacterias sensiveis e favorece a reproducao das resistentes, caracterizando selecao natural.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre evolucao, saude publica e selecao natural.",
+    "validation_notes": "Resposta conferida: antibioticos atuam como pressao seletiva, nao como produtores dirigidos de mutacao."
+  },
+  {
+    "id": "real-unesp-2026-06-17-bio-006",
+    "subject": "Biologia",
+    "topic": "Botanica",
+    "prompt": "Em plantas terrestres, os estomatos contribuem para as trocas gasosas e para o controle da perda de agua. Sua abertura depende diretamente:",
+    "options": {
+      "A": "da contracao de fibras musculares foliares",
+      "B": "do turgor das celulas-guarda",
+      "C": "da digestao de celulose pela cuticula",
+      "D": "da ausencia de clorofila no mesofilo",
+      "E": "do fechamento permanente dos vasos do xilema"
+    },
+    "answer": "B",
+    "explanation": "As celulas-guarda regulam o ostiolo. Quando ficam turgidas, favorecem a abertura; quando perdem agua, favorecem o fechamento.",
+    "source_notes": "Padrao inspirado em itens da Unesp que cobram relacao entre estrutura vegetal e funcao.",
+    "validation_notes": "Resposta conferida: a variacao de turgor das celulas-guarda controla a abertura estomatica."
+  },
+  {
+    "id": "real-unesp-2026-06-17-bio-007",
+    "subject": "Biologia",
+    "topic": "Parasitologia",
+    "prompt": "A esquistossomose mansoni depende da presenca de caramujos de agua doce do genero Biomphalaria porque esses organismos atuam como:",
+    "options": {
+      "A": "hospedeiros intermediarios do parasita",
+      "B": "hospedeiros definitivos do parasita",
+      "C": "agentes etiologicos da doenca",
+      "D": "produtores de anticorpos humanos",
+      "E": "vetores exclusivos de bacterias intestinais"
+    },
+    "answer": "A",
+    "explanation": "No ciclo do Schistosoma mansoni, os caramujos Biomphalaria abrigam fases larvais do parasita, enquanto o ser humano e o hospedeiro definitivo.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre ciclos parasitarios e saneamento.",
+    "validation_notes": "Resposta conferida: Biomphalaria e hospedeiro intermediario, nao agente etiologico."
+  },
+  {
+    "id": "real-unesp-2026-06-17-qui-001",
+    "subject": "Quimica",
+    "topic": "Estequiometria",
+    "prompt": "Na combustao completa do metano, CH4 + 2 O2 -> CO2 + 2 H2O. Para consumir completamente 3 mol de CH4, a quantidade minima de O2 necessaria e:",
+    "options": {
+      "A": "1,5 mol",
+      "B": "2 mol",
+      "C": "3 mol",
+      "D": "6 mol",
+      "E": "8 mol"
+    },
+    "answer": "D",
+    "explanation": "A proporcao estequiometrica e 1 mol de CH4 para 2 mol de O2. Assim, 3 mol de CH4 exigem 6 mol de O2.",
+    "source_notes": "Padrao inspirado em questoes objetivas da Unesp com equacoes balanceadas e proporcao molar.",
+    "validation_notes": "Resposta conferida: razao CH4:O2 e 1:2."
+  },
+  {
+    "id": "real-unesp-2026-06-17-qui-002",
+    "subject": "Quimica",
+    "topic": "Solucoes",
+    "prompt": "Uma solucao foi preparada dissolvendo-se 0,20 mol de soluto em agua suficiente para completar 500 mL de solucao. A concentracao molar obtida e:",
+    "options": {
+      "A": "0,10 mol/L",
+      "B": "0,20 mol/L",
+      "C": "0,40 mol/L",
+      "D": "2,5 mol/L",
+      "E": "4,0 mol/L"
+    },
+    "answer": "C",
+    "explanation": "Como 500 mL correspondem a 0,5 L, M = n/V = 0,20/0,5 = 0,40 mol/L.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre concentracao comum e molaridade.",
+    "validation_notes": "Resposta conferida: divisao de mol por litro resulta em 0,40 mol/L."
+  },
+  {
+    "id": "real-unesp-2026-06-17-qui-003",
+    "subject": "Quimica",
+    "topic": "Equilibrio quimico",
+    "prompt": "Considere um equilibrio em que o sentido direto e exotermico. De acordo com o principio de Le Chatelier, o aumento da temperatura tende a favorecer:",
+    "options": {
+      "A": "o sentido direto, por liberar calor",
+      "B": "o sentido inverso, por consumir calor",
+      "C": "ambos os sentidos igualmente, sem deslocamento",
+      "D": "apenas a formacao de catalisador",
+      "E": "a remocao de todos os reagentes"
+    },
+    "answer": "B",
+    "explanation": "A elevacao de temperatura favorece o processo endotermico, isto e, o sentido que consome calor. Se o direto e exotermico, o inverso e favorecido.",
+    "source_notes": "Padrao inspirado em cobrancas da Unesp sobre perturbacoes em sistemas em equilibrio.",
+    "validation_notes": "Resposta conferida: aumento de temperatura desloca para o sentido endotermico."
+  },
+  {
+    "id": "real-unesp-2026-06-17-qui-004",
+    "subject": "Quimica",
+    "topic": "Quimica organica",
+    "prompt": "O etanol e muito citado em contextos de combustiveis e bebidas alcoolicas. O grupo funcional que caracteriza essa substancia e:",
+    "options": {
+      "A": "carboxila",
+      "B": "hidroxila ligada a carbono saturado",
+      "C": "carbonila aldeidica",
+      "D": "amida",
+      "E": "eter entre dois aneis aromaticos"
+    },
+    "answer": "B",
+    "explanation": "O etanol e um alcool; alcoois apresentam o grupo hidroxila (-OH) ligado a carbono saturado.",
+    "source_notes": "Padrao inspirado em questoes da Unesp que relacionam compostos cotidianos e funcoes organicas.",
+    "validation_notes": "Resposta conferida: etanol pertence a funcao alcool."
+  },
+  {
+    "id": "real-unesp-2026-06-17-qui-005",
+    "subject": "Quimica",
+    "topic": "Ligacoes quimicas",
+    "prompt": "O cloreto de sodio solido apresenta estrutura cristalina formada por ions. A ligacao predominante nesse composto e classificada como:",
+    "options": {
+      "A": "ionica",
+      "B": "covalente apolar",
+      "C": "metalica",
+      "D": "ligacao de hidrogenio intramolecular",
+      "E": "dipolo induzido exclusivo"
+    },
+    "answer": "A",
+    "explanation": "O sodio tende a formar Na+ e o cloro tende a formar Cl-. A atracao eletrostatica entre esses ions caracteriza ligacao ionica.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre propriedades de compostos ionicos.",
+    "validation_notes": "Resposta conferida: NaCl e exemplo classico de composto ionico."
+  },
+  {
+    "id": "real-unesp-2026-06-17-qui-006",
+    "subject": "Quimica",
+    "topic": "Eletroquimica",
+    "prompt": "Em uma pilha galvanica em funcionamento espontaneo, os eletrons fluem pelo circuito externo porque ocorre:",
+    "options": {
+      "A": "oxidacao no catodo e reducao no anodo",
+      "B": "reducao simultanea nos dois eletrodos",
+      "C": "oxidacao no anodo e reducao no catodo",
+      "D": "neutralizacao sem transferencia de eletrons",
+      "E": "evaporacao obrigatoria do eletrolito"
+    },
+    "answer": "C",
+    "explanation": "Em pilhas, o anodo e o eletrodo onde ocorre oxidacao, liberando eletrons; o catodo e onde ocorre reducao, consumindo eletrons.",
+    "source_notes": "Padrao inspirado em itens da Unesp que cobram identificacao de anodo, catodo e fluxo de eletrons.",
+    "validation_notes": "Resposta conferida: em celula galvanica, anodo oxida e catodo reduz."
+  },
+  {
+    "id": "real-unesp-2026-06-17-mat-001",
+    "subject": "Matematica",
+    "topic": "Funcao afim",
+    "prompt": "Uma empresa de transporte cobra uma taxa fixa de R$ 8,00 mais R$ 2,50 por quilometro percorrido. Para uma corrida de 12 km, o valor cobrado sera:",
+    "options": {
+      "A": "R$ 22,00",
+      "B": "R$ 30,00",
+      "C": "R$ 32,50",
+      "D": "R$ 38,00",
+      "E": "R$ 40,50"
+    },
+    "answer": "D",
+    "explanation": "O custo e dado por C = 8 + 2,50 x 12 = 8 + 30 = 38 reais.",
+    "source_notes": "Padrao inspirado em questoes da Unesp de modelagem por funcao afim em contexto cotidiano.",
+    "validation_notes": "Resposta conferida: substituicao direta na funcao afim."
+  },
+  {
+    "id": "real-unesp-2026-06-17-mat-002",
+    "subject": "Matematica",
+    "topic": "Probabilidade",
+    "prompt": "Em uma caixa ha 4 bolas azuis, 3 vermelhas e 5 brancas. Retirando-se uma bola ao acaso, a probabilidade de ela nao ser branca e:",
+    "options": {
+      "A": "5/12",
+      "B": "7/12",
+      "C": "1/3",
+      "D": "2/3",
+      "E": "3/5"
+    },
+    "answer": "B",
+    "explanation": "Ha 12 bolas no total. As nao brancas sao 4 + 3 = 7, logo a probabilidade e 7/12.",
+    "source_notes": "Padrao inspirado em questoes objetivas da Unesp com contagem simples e eventos complementares.",
+    "validation_notes": "Resposta conferida: evento favoravel tem 7 casos em 12."
+  },
+  {
+    "id": "real-unesp-2026-06-17-mat-003",
+    "subject": "Matematica",
+    "topic": "Geometria plana",
+    "prompt": "Um terreno retangular tem perimetro de 50 m. Se o comprimento mede 15 m, sua largura mede:",
+    "options": {
+      "A": "5 m",
+      "B": "7,5 m",
+      "C": "10 m",
+      "D": "12,5 m",
+      "E": "20 m"
+    },
+    "answer": "C",
+    "explanation": "No retangulo, P = 2(c + l). Assim, 50 = 2(15 + l), entao 25 = 15 + l e l = 10 m.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre geometria plana aplicada.",
+    "validation_notes": "Resposta conferida: largura igual a 10 m gera perimetro 2(15+10)=50."
+  },
+  {
+    "id": "real-unesp-2026-06-17-mat-004",
+    "subject": "Matematica",
+    "topic": "Progressao aritmetica",
+    "prompt": "Em uma progressao aritmetica, o primeiro termo e 6 e a razao e 4. O oitavo termo dessa sequencia e:",
+    "options": {
+      "A": "28",
+      "B": "30",
+      "C": "32",
+      "D": "34",
+      "E": "36"
+    },
+    "answer": "D",
+    "explanation": "O termo geral e a_n = a_1 + (n-1)r. Logo, a_8 = 6 + 7 x 4 = 34.",
+    "source_notes": "Padrao inspirado em questoes da Unesp com sequencias numericas e termo geral.",
+    "validation_notes": "Resposta conferida: aplicacao correta da formula da PA."
+  },
+  {
+    "id": "real-unesp-2026-06-17-fis-001",
+    "subject": "Fisica",
+    "topic": "Cinematica",
+    "prompt": "Um ciclista percorre 18 km em 45 minutos, mantendo velocidade media constante. Sua velocidade media, em km/h, e:",
+    "options": {
+      "A": "18",
+      "B": "20",
+      "C": "24",
+      "D": "30",
+      "E": "36"
+    },
+    "answer": "C",
+    "explanation": "Quarenta e cinco minutos correspondem a 0,75 h. A velocidade media e 18/0,75 = 24 km/h.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre velocidade media e conversao de unidades.",
+    "validation_notes": "Resposta conferida: 18 km divididos por 0,75 h resultam em 24 km/h."
+  },
+  {
+    "id": "real-unesp-2026-06-17-fis-002",
+    "subject": "Fisica",
+    "topic": "Eletricidade",
+    "prompt": "Um resistor de 20 ohms e percorrido por uma corrente eletrica de 0,5 A. A diferenca de potencial entre seus terminais e:",
+    "options": {
+      "A": "5 V",
+      "B": "10 V",
+      "C": "20 V",
+      "D": "40 V",
+      "E": "100 V"
+    },
+    "answer": "B",
+    "explanation": "Pela lei de Ohm, U = R.i. Assim, U = 20 x 0,5 = 10 V.",
+    "source_notes": "Padrao inspirado em questoes objetivas da Unesp sobre circuitos simples e lei de Ohm.",
+    "validation_notes": "Resposta conferida: produto da resistencia pela corrente."
+  },
+  {
+    "id": "real-unesp-2026-06-17-fis-003",
+    "subject": "Fisica",
+    "topic": "Calorimetria",
+    "prompt": "Durante a fusao de uma substancia pura sob pressao constante, enquanto coexistem solido e liquido, a energia fornecida e usada principalmente para:",
+    "options": {
+      "A": "aumentar continuamente a temperatura",
+      "B": "alterar o estado fisico sem elevar a temperatura",
+      "C": "diminuir a massa da substancia a zero",
+      "D": "interromper todo movimento molecular",
+      "E": "transformar calor em carga eletrica"
+    },
+    "answer": "B",
+    "explanation": "Na mudanca de fase de substancia pura, o calor latente altera a organizacao das particulas, e a temperatura permanece constante enquanto dura a transicao.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre calor sensivel, calor latente e graficos de aquecimento.",
+    "validation_notes": "Resposta conferida: fusao envolve calor latente sem variacao de temperatura durante a transicao."
+  },
+  {
+    "id": "real-unesp-2026-06-17-geo-001",
+    "subject": "Geografia",
+    "topic": "Urbanizacao",
+    "prompt": "A concentracao desproporcional de populacao, servicos e infraestrutura em uma metropole, em comparacao com outras cidades da rede urbana, caracteriza:",
+    "options": {
+      "A": "macrocefalia urbana",
+      "B": "transumancia",
+      "C": "conurbacao rural",
+      "D": "desertificacao",
+      "E": "plataforma continental"
+    },
+    "answer": "A",
+    "explanation": "Macrocefalia urbana e a primazia excessiva de uma grande cidade, que concentra funcoes, renda e populacao acima do equilibrio da rede urbana.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre urbanizacao brasileira e redes urbanas.",
+    "validation_notes": "Resposta conferida: definicao corresponde a macrocefalia urbana."
+  },
+  {
+    "id": "real-unesp-2026-06-17-geo-002",
+    "subject": "Geografia",
+    "topic": "Climatologia",
+    "prompt": "O fenomeno El Nino esta associado ao aquecimento anormal das aguas superficiais do Pacifico Equatorial e pode provocar alteracoes na circulacao atmosferica. No Brasil, seus efeitos podem incluir:",
+    "options": {
+      "A": "padroes regionais de chuva e temperatura diferentes da media",
+      "B": "fim definitivo das frentes frias",
+      "C": "extincao imediata da vegetacao amazônica",
+      "D": "ausencia total de massas de ar",
+      "E": "interrupcao permanente do ciclo da agua"
+    },
+    "answer": "A",
+    "explanation": "O El Nino altera interacoes oceano-atmosfera e pode modificar regimes de chuva e temperatura em diferentes regioes brasileiras, sem produzir efeitos absolutos e permanentes.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre clima, massas de ar e fenomenos oceanicos.",
+    "validation_notes": "Resposta conferida: El Nino afeta anomalias regionais de precipitacao e temperatura."
+  },
+  {
+    "id": "real-unesp-2026-06-17-geo-003",
+    "subject": "Geografia",
+    "topic": "Agricultura brasileira",
+    "prompt": "A modernizacao agricola no Brasil elevou a produtividade em varias regioes, mas tambem se relacionou a problemas sociais e ambientais, como:",
+    "options": {
+      "A": "eliminacao da concentracao fundiaria",
+      "B": "mecanizacao, uso intensivo de insumos e reducao relativa da mao de obra no campo",
+      "C": "abandono completo das exportacoes agricolas",
+      "D": "substituicao total do agronegocio pela coleta extrativa",
+      "E": "proibicao de monoculturas em todas as regioes"
+    },
+    "answer": "B",
+    "explanation": "A modernizacao envolveu maquinas, fertilizantes, defensivos e sementes melhoradas, aumentando produtividade, mas tambem reduzindo empregos rurais e intensificando impactos.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre espaco agrario, tecnologia e desigualdades.",
+    "validation_notes": "Resposta conferida: a alternativa resume efeitos produtivos e socioambientais do processo."
+  },
+  {
+    "id": "real-unesp-2026-06-17-his-001",
+    "subject": "Historia",
+    "topic": "Brasil Republicano",
+    "prompt": "Durante a Primeira Republica brasileira, o coronelismo esteve associado principalmente:",
+    "options": {
+      "A": "ao fortalecimento de poderes locais e ao controle politico do eleitorado",
+      "B": "a implantacao do voto feminino universal em 1891",
+      "C": "a extincao imediata das oligarquias estaduais",
+      "D": "a industrializacao conduzida pelo Plano de Metas",
+      "E": "ao fim das praticas clientelistas no campo"
+    },
+    "answer": "A",
+    "explanation": "O coronelismo articulava poder local, controle de votos, clientelismo e relacoes com oligarquias estaduais, marcando a politica da Primeira Republica.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre estruturas politicas da Republica Oligarquica.",
+    "validation_notes": "Resposta conferida: coronelismo envolve mandonismo local e controle eleitoral."
+  },
+  {
+    "id": "real-unesp-2026-06-17-his-002",
+    "subject": "Historia",
+    "topic": "Revolucao Industrial",
+    "prompt": "Uma transformacao social ligada a Revolucao Industrial foi a formacao de uma classe trabalhadora urbana submetida, em muitos casos, a jornadas extensas e baixos salarios. Essa classe e conhecida como:",
+    "options": {
+      "A": "nobreza feudal",
+      "B": "proletariado",
+      "C": "clero regular",
+      "D": "patriciado romano",
+      "E": "aristocracia rural escravista"
+    },
+    "answer": "B",
+    "explanation": "O proletariado industrial era formado por trabalhadores assalariados que vendiam sua forca de trabalho nas fabricas, em contexto de urbanizacao e industrializacao.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre industrializacao, urbanizacao e conflitos trabalhistas.",
+    "validation_notes": "Resposta conferida: proletariado e a classe trabalhadora assalariada industrial."
+  },
+  {
+    "id": "real-unesp-2026-06-17-his-003",
+    "subject": "Historia",
+    "topic": "Colonizacao da America portuguesa",
+    "prompt": "No Brasil colonial, a producao acucareira do Nordeste esteve fortemente associada ao sistema de plantation, caracterizado por:",
+    "options": {
+      "A": "pequena propriedade, policultura e trabalho livre generalizado",
+      "B": "latifundio, monocultura, escravidao e exportacao",
+      "C": "industrializacao urbana e mercado interno exclusivo",
+      "D": "cooperativas camponesas e voto universal",
+      "E": "minifundios voltados apenas ao autoconsumo"
+    },
+    "answer": "B",
+    "explanation": "A plantation colonial combinava grandes propriedades, monocultura, uso de mao de obra escravizada e producao voltada ao mercado externo.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre economia colonial e trabalho escravizado.",
+    "validation_notes": "Resposta conferida: a alternativa B reune os elementos essenciais da plantation."
+  },
+  {
+    "id": "real-unesp-2026-06-17-por-001",
+    "subject": "Portugues",
+    "topic": "Interpretacao textual",
+    "prompt": "Em textos argumentativos, a tese corresponde ao elemento que organiza a argumentacao. Ela pode ser entendida como:",
+    "options": {
+      "A": "a opiniao central que o autor procura defender",
+      "B": "a citacao menos importante do texto",
+      "C": "a lista de personagens secundarios",
+      "D": "um erro gramatical intencional",
+      "E": "a conclusao de uma operacao matematica"
+    },
+    "answer": "A",
+    "explanation": "A tese e o ponto de vista principal defendido pelo autor, sustentado por argumentos, exemplos e estrategias de convencimento.",
+    "source_notes": "Padrao inspirado em questoes da Unesp de leitura e reconhecimento de estrategia argumentativa.",
+    "validation_notes": "Resposta conferida: definicao de tese em texto argumentativo."
+  },
+  {
+    "id": "real-unesp-2026-06-17-por-002",
+    "subject": "Portugues",
+    "topic": "Figuras de linguagem",
+    "prompt": "Na frase 'A cidade acordou apreensiva com a noticia', atribui-se a cidade uma acao e um estado emocional humanos. A figura de linguagem predominante e:",
+    "options": {
+      "A": "metonimia",
+      "B": "hiperbole",
+      "C": "personificacao",
+      "D": "antitese",
+      "E": "onomatopeia"
+    },
+    "answer": "C",
+    "explanation": "Personificacao, ou prosopopeia, ocorre quando caracteristicas, acoes ou sentimentos humanos sao atribuidos a seres inanimados ou abstratos.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre efeitos expressivos e recursos de linguagem.",
+    "validation_notes": "Resposta conferida: a cidade recebe acao e sentimento humanos."
+  },
+  {
+    "id": "real-unesp-2026-06-17-por-003",
+    "subject": "Portugues",
+    "topic": "Literatura brasileira",
+    "prompt": "Uma caracteristica frequentemente associada ao Realismo brasileiro, especialmente na prosa de Machado de Assis, e:",
+    "options": {
+      "A": "idealizacao absoluta do amor romantico",
+      "B": "analise psicologica das personagens e critica social",
+      "C": "predominio exclusivo de temas medievais",
+      "D": "negacao completa da ironia",
+      "E": "ausencia de narradores complexos"
+    },
+    "answer": "B",
+    "explanation": "O Realismo brasileiro valoriza observacao critica da sociedade, ironia e analise psicologica, afastando-se da idealizacao romantica.",
+    "source_notes": "Padrao inspirado em questoes da Unesp sobre escolas literarias e interpretacao de excertos.",
+    "validation_notes": "Resposta conferida: a alternativa B resume caracteristicas centrais do Realismo."
+  },
+  {
+    "id": "real-unesp-2026-06-17-ing-001",
+    "subject": "Ingles",
+    "topic": "Reading comprehension",
+    "prompt": "In the sentence 'Applicants must read the instructions carefully before answering', the modal verb 'must' expresses:",
+    "options": {
+      "A": "permission",
+      "B": "obligation",
+      "C": "impossibility",
+      "D": "past habit",
+      "E": "comparison"
+    },
+    "answer": "B",
+    "explanation": "The modal verb 'must' commonly expresses obligation, necessity or a strong requirement.",
+    "source_notes": "Padrao inspirado em questoes da Unesp de leitura em ingles com identificacao de sentido contextual.",
+    "validation_notes": "Resposta conferida: 'must' indica obrigacao ou necessidade."
+  }
+]

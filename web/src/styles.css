@@ -50,6 +50,21 @@ button {
   padding: 6px 0 20px;
 }
 
+.brand-lockup {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand-mark {
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(15, 94, 74, 0.12);
+}
+
 .topbar h1 {
   margin: 0;
   font-size: 1.62rem;
@@ -484,6 +499,17 @@ button {
   .net {
     width: clamp(56px, 7vw, 76px);
     height: clamp(56px, 7vw, 76px);
+  }
+
+  .brand-lockup {
+    gap: clamp(12px, 2vw, 20px);
+  }
+
+  .brand-mark {
+    width: clamp(62px, 8vw, 94px);
+    height: clamp(62px, 8vw, 94px);
+    flex-basis: clamp(62px, 8vw, 94px);
+    border-radius: clamp(14px, 2vw, 22px);
   }
 
   .status-panel,

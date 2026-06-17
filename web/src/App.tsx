@@ -145,13 +145,19 @@ export function App() {
   const answeredCount = Object.keys(attempt.answers).length;
   const currentQuestion = selectedExam.questions[currentIndex];
   const canFinish = answeredCount === selectedExam.questions.length;
+  const isLastQuestion = currentIndex === selectedExam.questions.length - 1;
+  const hasAnsweredCurrentQuestion = Boolean(attempt.answers[currentQuestion.id]);
+  const showFinishButton = isLastQuestion && hasAnsweredCurrentQuestion;
 
   return (
     <main className="app">
       <header className="topbar">
-        <div>
-          <h1>Unesp Odonto</h1>
-          <p>{nextExamText}</p>
+        <div className="brand-lockup">
+          <img className="brand-mark" src={`${import.meta.env.BASE_URL}icons/icon-192.png`} alt="" />
+          <div>
+            <h1>Unesp Odonto</h1>
+            <p>{nextExamText}</p>
+          </div>
         </div>
         <div className={isOffline ? "net offline" : "net online"} title={isOffline ? "Offline" : "Online"}>
           <Signal size={18} />
@@ -228,10 +234,12 @@ export function App() {
           </article>
 
           <div className="exam-actions">
-            <button className="secondary-action" onClick={() => setTab("home")}>Salvar e sair</button>
-            <button className="primary-action compact" onClick={finishExam} disabled={!canFinish}>
-              Finalizar
-            </button>
+            <button className="secondary-action" onClick={() => setTab("home")}>Salvar e continuar depois</button>
+            {showFinishButton && (
+              <button className="primary-action compact" onClick={finishExam} disabled={!canFinish}>
+                Finalizar
+              </button>
+            )}
           </div>
         </section>
       )}
