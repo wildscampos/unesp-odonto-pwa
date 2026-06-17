@@ -1,4 +1,4 @@
-const CACHE_VERSION = "unesp-odonto-v1";
+const CACHE_VERSION = "unesp-odonto-v2";
 const BASE_PATH = "/unesp-odonto-pwa";
 const APP_SHELL = [
   `${BASE_PATH}/`,
