@@ -44,21 +44,35 @@ try {
     exit 0
   }
 
-  $ApiKey = [Environment]::GetEnvironmentVariable("OPENAI_API_KEY", "User")
-  if (-not $ApiKey) {
-    $ApiKey = [Environment]::GetEnvironmentVariable("OPENAI_API_KEY", "Machine")
-  }
-  if (-not $ApiKey) {
-    throw "OPENAI_API_KEY is not configured. The automatic job was stopped to avoid generating fallback questions."
+  $Ollama = Get-Command ollama -ErrorAction SilentlyContinue
+  $OllamaExe = if ($Ollama) { $Ollama.Source } else { Join-Path $env:LOCALAPPDATA "Programs\Ollama\ollama.exe" }
+  if (-not (Test-Path $OllamaExe)) {
+    throw "Ollama is not installed or not available in PATH. Install Ollama before scheduled generation."
   }
 
-  $env:OPENAI_API_KEY = $ApiKey
-  $env:OPENAI_MODEL = [Environment]::GetEnvironmentVariable("OPENAI_MODEL", "User")
-  if (-not $env:OPENAI_MODEL) { $env:OPENAI_MODEL = "gpt-5-mini" }
-  $env:OPENAI_VALIDATOR_MODEL = [Environment]::GetEnvironmentVariable("OPENAI_VALIDATOR_MODEL", "User")
-  if (-not $env:OPENAI_VALIDATOR_MODEL) { $env:OPENAI_VALIDATOR_MODEL = $env:OPENAI_MODEL }
+  $env:OLLAMA_MODEL = [Environment]::GetEnvironmentVariable("OLLAMA_MODEL", "User")
+  if (-not $env:OLLAMA_MODEL) { $env:OLLAMA_MODEL = "qwen3:4b" }
+  $env:OLLAMA_VALIDATOR_MODEL = [Environment]::GetEnvironmentVariable("OLLAMA_VALIDATOR_MODEL", "User")
+  if (-not $env:OLLAMA_VALIDATOR_MODEL) { $env:OLLAMA_VALIDATOR_MODEL = $env:OLLAMA_MODEL }
+  if (-not $env:OLLAMA_NUM_CTX) { $env:OLLAMA_NUM_CTX = "4096" }
+  if (-not $env:OLLAMA_NUM_PREDICT) { $env:OLLAMA_NUM_PREDICT = "700" }
+  if (-not $env:OLLAMA_TIMEOUT_SECONDS) { $env:OLLAMA_TIMEOUT_SECONDS = "600" }
+  if (-not $env:SOURCE_CONTEXT_CHARS) { $env:SOURCE_CONTEXT_CHARS = "1200" }
 
-  Write-Host "Generating exam with model $env:OPENAI_MODEL..."
+  $InstalledModels = & $OllamaExe list
+  if ($InstalledModels -notmatch [regex]::Escape($env:OLLAMA_MODEL)) {
+    Write-Host "Pulling local model $env:OLLAMA_MODEL..."
+    & $OllamaExe pull $env:OLLAMA_MODEL
+    if ($LASTEXITCODE -ne 0) { throw "ollama pull failed with exit code $LASTEXITCODE." }
+  }
+
+  if ($env:OLLAMA_VALIDATOR_MODEL -ne $env:OLLAMA_MODEL -and $InstalledModels -notmatch [regex]::Escape($env:OLLAMA_VALIDATOR_MODEL)) {
+    Write-Host "Pulling local validator model $env:OLLAMA_VALIDATOR_MODEL..."
+    & $OllamaExe pull $env:OLLAMA_VALIDATOR_MODEL
+    if ($LASTEXITCODE -ne 0) { throw "ollama pull failed with exit code $LASTEXITCODE." }
+  }
+
+  Write-Host "Generating exam with local Ollama model $env:OLLAMA_MODEL..."
   & python -m unesp_study exam --date $IsoDate
   if ($LASTEXITCODE -ne 0) { throw "Exam generation failed with exit code $LASTEXITCODE." }
 

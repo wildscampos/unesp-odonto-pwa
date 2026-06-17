@@ -16,7 +16,7 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import cm
 from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
-from .ai_generator import generate_questions_with_openai, validate_questions_with_openai
+from .ollama_generator import generate_questions_with_ollama, validate_questions_with_ollama
 from .sources import build_source_context, has_extracted_pdf_text
 
 
@@ -85,9 +85,9 @@ def generate_exam_pdf(day: date) -> Path:
 
 
 def build_daily_questions(day: date) -> list[Question]:
-    source_context = build_source_context()
-    if os.getenv("OPENAI_API_KEY") and source_context and has_extracted_pdf_text():
-        return generate_questions_with_openai(day, source_context, SUBJECT_PLAN)
+    source_context = build_source_context(max_chars=int(os.getenv("SOURCE_CONTEXT_CHARS", "1200")))
+    if source_context and has_extracted_pdf_text():
+        return generate_questions_with_ollama(day, source_context, SUBJECT_PLAN)
     return select_questions(day, load_bank())
 
 
@@ -111,9 +111,7 @@ def generate_answers_pdf(day: date) -> Path:
 
 def validate_answers_before_pdf(questions: list[Question]) -> list[Question]:
     structurally_validated = [validate_question_structure(question) for question in questions]
-    if os.getenv("OPENAI_API_KEY"):
-        return validate_questions_with_openai(structurally_validated)
-    return structurally_validated
+    return validate_questions_with_ollama(structurally_validated)
 
 
 def validate_question_structure(question: Question) -> Question:

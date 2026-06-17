@@ -10,8 +10,8 @@ O projeto tambem inclui um PWA em React/Vite. Ele foi pensado para iPhone 12 e u
 
 Principios:
 
-- a OpenAI API nunca roda no navegador;
-- a chave fica apenas no computador/servidor que gera as provas;
+- nenhum servico pago de IA roda no navegador;
+- a geracao por IA acontece localmente no computador via Ollama;
 - o PWA consome `web/public/data/exams.json`;
 - a correcao acontece localmente ao finalizar a prova;
 - respostas, progresso e historico ficam salvos no aparelho;
@@ -52,17 +52,18 @@ sources/
 
 Use, de preferencia, fontes oficiais. O arquivo `sources/source_manifest.json` ja lista as paginas pesquisadas. Em alguns anos, a pagina "Provas e Gabaritos" da Vunesp exige login na area do candidato; nesses casos, baixe manualmente e salve o PDF nesta pasta.
 
-3. Configure a chave da OpenAI para gerar questoes novas baseadas nesses PDFs:
+3. Instale o Ollama e baixe um modelo local para gerar questoes novas baseadas nesses PDFs:
 
 ```powershell
-$env:OPENAI_API_KEY="sua-chave"
+winget install --id Ollama.Ollama --accept-package-agreements --accept-source-agreements
+ollama pull qwen3:4b
 ```
 
-O projeto usa `gpt-5-mini` por padrao. Opcionalmente, escolha outro modelo:
+O projeto usa `qwen3:4b` por padrao, gerando uma questao por vez para rodar melhor em CPU. Opcionalmente, escolha outro modelo local:
 
 ```powershell
-$env:OPENAI_MODEL="gpt-5-mini"
-$env:OPENAI_VALIDATOR_MODEL="gpt-5-mini"
+setx OLLAMA_MODEL "qwen3:4b"
+setx OLLAMA_VALIDATOR_MODEL "qwen3:4b"
 ```
 
 4. Execute a acao programada do dia:
@@ -73,7 +74,7 @@ python -m unesp_study run
 
 Nas segundas, quartas e sextas, o comando gera uma prova. Os PDFs serao criados em `output/`. No PWA, a resolucao aparece imediatamente depois que a aluna finaliza a prova.
 
-Sem `OPENAI_API_KEY`, o projeto roda com o banco local de questoes como fallback.
+Se houver PDFs reais em `sources/`, o projeto exige Ollama rodando para gerar questoes novas. Sem PDFs, ele usa o banco local de questoes como fallback.
 
 Para verificar se os PDFs reais foram carregados:
 
@@ -95,12 +96,12 @@ Gerar resolucao de uma data especifica:
 python -m unesp_study answers --date 2026-06-16
 ```
 
-Antes de criar o PDF de resolucao, o projeto sempre faz uma conferencia das respostas. Sem `OPENAI_API_KEY`, ele valida a estrutura do gabarito salvo. Com `OPENAI_API_KEY`, ele tambem faz uma revisao independente das 30 questoes e pode corrigir a alternativa e a explicacao antes de gerar o PDF.
+Antes de criar o PDF de resolucao, o projeto sempre valida a estrutura do gabarito salvo e tambem pode pedir uma revisao local ao Ollama para corrigir alternativa e explicacao antes de gerar o PDF.
 
-Para usar um modelo diferente apenas na conferencia:
+Para usar um modelo local diferente apenas na conferencia:
 
 ```powershell
-$env:OPENAI_VALIDATOR_MODEL="gpt-5-mini"
+setx OLLAMA_VALIDATOR_MODEL "gemma3:12b"
 ```
 
 Executar a acao programada do dia:
@@ -117,23 +118,11 @@ config/study_schedule.json
 
 Por padrao, a primeira prova do ciclo e `2026-06-16`, e novas provas sao geradas nas segundas, quartas e sextas.
 
-## Custo da OpenAI
+## Custo de IA
 
-Para manter o custo baixo:
+O projeto usa IA local com Ollama. Portanto, nao ha cobranca por tokens nem custo de API.
 
-- use `gpt-5-mini`;
-- nao chame OpenAI no PWA;
-- gere provas apenas segunda, quarta e sexta;
-- faca a correcao no app usando o gabarito ja salvo;
-- use revisao por IA apenas na etapa privada de geracao quando necessario.
-
-Estimativa com `gpt-5-mini`, 12 a 14 provas por mes:
-
-- recomendado: cerca de US$ 0,50 a US$ 2,50/mes;
-- teto operacional planejado: abaixo de US$ 3/mes na maioria dos meses;
-- limite maximo aceitavel: US$ 5/mes.
-
-O custo pode subir se muitos PDFs forem enviados como contexto integral. Se isso acontecer, reduza o tamanho de `source_context` em `src/unesp_study/sources.py` ou use resumos extraidos das provas.
+O custo pratico e apenas o uso do computador: tempo de processamento, memoria, energia e armazenamento do modelo local. Se a geracao ficar lenta, use um modelo menor, como `gemma3:4b`; se quiser mais qualidade e o computador aguentar, teste `gemma3:12b`.
 
 ## Automatizar no Windows
 

@@ -3,7 +3,7 @@ name = "unesp-study"
 version = "0.1.0"
 description = "Gerador diario de provas em PDF para estudo da Unesp."
 requires-python = ">=3.10"
-dependencies = ["reportlab==4.2.5", "pypdf==5.1.0", "openai==1.93.0"]
+dependencies = ["reportlab==4.2.5", "pypdf==5.1.0"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
