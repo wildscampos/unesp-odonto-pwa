@@ -2,7 +2,7 @@
   color: #17231f;
   background: #f7faf8;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 18px;
+  font-size: clamp(18px, 1.05vw, 22px);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
@@ -28,7 +28,8 @@ button {
 .app {
   min-height: 100svh;
   min-height: 100dvh;
-  max-width: 720px;
+  width: 100%;
+  max-width: 960px;
   margin: 0 auto;
   padding: max(18px, env(safe-area-inset-top)) 18px calc(116px + env(safe-area-inset-bottom));
 }
@@ -420,7 +421,7 @@ button {
   right: 0;
   bottom: 0;
   z-index: 1000;
-  width: min(720px, 100%);
+  width: min(960px, 100%);
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -449,6 +450,11 @@ button {
   background: #e9f3ef;
 }
 
+.bottom-nav svg {
+  width: 28px;
+  height: 28px;
+}
+
 @media (min-width: 680px) {
   .app {
     padding-inline: 24px;
@@ -459,9 +465,99 @@ button {
   }
 }
 
+@media (pointer: coarse), (orientation: portrait) and (max-width: 1200px) {
+  :root {
+    font-size: clamp(20px, 3.2vw, 34px);
+  }
+
+  .app {
+    width: 100%;
+    max-width: none;
+    padding-inline: clamp(18px, 4vw, 42px);
+    padding-bottom: calc(clamp(132px, 13vw, 172px) + env(safe-area-inset-bottom));
+  }
+
+  .topbar {
+    padding-top: 10px;
+  }
+
+  .net {
+    width: clamp(56px, 7vw, 76px);
+    height: clamp(56px, 7vw, 76px);
+  }
+
+  .status-panel,
+  .result-panel,
+  .progress-block,
+  .question-card,
+  .review-item,
+  .subject-card,
+  .history-row {
+    border-radius: 10px;
+  }
+
+  .score-ring {
+    flex-basis: clamp(108px, 16vw, 176px);
+    width: clamp(108px, 16vw, 176px);
+    height: clamp(108px, 16vw, 176px);
+    border-width: clamp(8px, 1.2vw, 14px);
+  }
+
+  .score-ring strong {
+    font-size: 1.32rem;
+  }
+
+  .score-ring span {
+    font-size: 0.78rem;
+  }
+
+  .subject-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .primary-action,
+  .secondary-action {
+    min-height: clamp(72px, 8.5vw, 96px);
+    font-size: 1.08rem;
+  }
+
+  .question-card p,
+  .review-item p {
+    font-size: 1.18rem;
+    line-height: 1.68;
+  }
+
+  .option {
+    min-height: clamp(78px, 9vw, 108px);
+    grid-template-columns: clamp(44px, 6vw, 64px) 1fr;
+    font-size: 1.12rem;
+  }
+
+  .option span {
+    width: clamp(42px, 5.5vw, 58px);
+    height: clamp(42px, 5.5vw, 58px);
+  }
+
+  .bottom-nav {
+    width: 100%;
+    max-width: none;
+    padding: clamp(10px, 2vw, 20px) clamp(10px, 2.5vw, 28px) max(clamp(10px, 2vw, 20px), env(safe-area-inset-bottom));
+  }
+
+  .bottom-nav button {
+    min-height: clamp(84px, 10vw, 116px);
+    font-size: 1rem;
+  }
+
+  .bottom-nav svg {
+    width: clamp(28px, 4vw, 42px);
+    height: clamp(28px, 4vw, 42px);
+  }
+}
+
 @media (max-width: 370px) {
   :root {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .app {
@@ -479,6 +575,31 @@ button {
   }
 
   .bottom-nav button {
-    font-size: 0.82rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1200px) and (orientation: landscape) {
+  .app {
+    max-width: 1100px;
+    padding-inline: 32px;
+  }
+
+  .bottom-nav {
+    width: min(1100px, 100%);
+  }
+}
+
+@media (min-width: 1800px) and (orientation: landscape) {
+  :root {
+    font-size: 22px;
+  }
+
+  .app {
+    max-width: 1280px;
+  }
+
+  .bottom-nav {
+    width: min(1280px, 100%);
   }
 }
