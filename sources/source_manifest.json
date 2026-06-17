@@ -1,0 +1,38 @@
+{
+  "research_date": "2026-06-16",
+  "official_sources": [
+    {
+      "name": "Portal Vestibular Unesp - Arquivo",
+      "url": "https://vestibular.unesp.br/",
+      "notes": "O menu Arquivo lista vestibulares de 2026, 2025, 2024, 2023, 2022, 2021, 2020 e 2019."
+    },
+    {
+      "name": "Vunesp - Vestibular Unesp 2026",
+      "url": "https://www.vunesp.com.br/VNSP2504/",
+      "notes": "Pagina oficial do vestibular 2026; a area de Provas e Gabaritos pode exigir login."
+    },
+    {
+      "name": "Vunesp - Vestibular Unesp 2025",
+      "url": "https://www.vunesp.com.br/VNSP2404/",
+      "notes": "Pagina oficial do vestibular 2025; a area de Provas e Gabaritos pode exigir login."
+    },
+    {
+      "name": "Vunesp - Vestibular Unesp 2024",
+      "url": "https://www.vunesp.com.br/VNSP2303/",
+      "notes": "Pagina oficial do vestibular 2024; a area de Provas e Gabaritos pode exigir login."
+    },
+    {
+      "name": "Vunesp - Vestibular Unesp 2022",
+      "url": "https://www.vunesp.com.br/VNSP2105/",
+      "notes": "Pagina oficial do vestibular 2022, com documentos publicos e manual."
+    }
+  ],
+  "secondary_index_sources": [
+    {
+      "name": "Brasil Escola - Downloads de provas e gabaritos Unesp",
+      "url": "https://vestibular.brasilescola.uol.com.br/downloads/universidade-estadual-paulista.htm",
+      "notes": "Indice publico com provas e gabaritos Unesp de 2026 a anos anteriores; usar apenas para localizar materiais quando os links oficiais exigirem login."
+    }
+  ],
+  "local_pdf_instructions": "Coloque nesta pasta os PDFs das provas/gabaritos dos ultimos 10 anos. O comando diario extrai texto automaticamente de todos os PDFs em sources/ e usa esse contexto para gerar questoes autorais."
+}

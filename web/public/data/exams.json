@@ -1,0 +1,1050 @@
+{
+  "generatedAt": "2026-06-16T22:11:49",
+  "schedule": {
+    "first_exam_date": "2026-06-16",
+    "exam_weekdays": [
+      0,
+      2,
+      4
+    ],
+    "answers_in_app": true
+  },
+  "exams": [
+    {
+      "id": "2026-06-16",
+      "date": "2026-06-16",
+      "title": "Simulado Unesp Odontologia - 16/06/2026",
+      "questionCount": 30,
+      "questions": [
+        {
+          "id": "bio-002",
+          "subject": "Biologia",
+          "topic": "Genetica",
+          "prompt": "Em uma especie, a caracteristica recessiva so aparece em individuos aa. Dois heterozigotos cruzam entre si. A probabilidade de um descendente apresentar o fenotipo recessivo e:",
+          "options": {
+            "A": "0%",
+            "B": "25%",
+            "C": "50%",
+            "D": "75%",
+            "E": "100%"
+          },
+          "answer": "B",
+          "explanation": "No cruzamento Aa x Aa, os genotipos esperados sao AA, Aa, Aa e aa. Apenas aa expressa o fenotipo recessivo, portanto a probabilidade e 1/4, ou 25%.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "qui-002",
+          "subject": "Quimica",
+          "topic": "Solucoes",
+          "prompt": "Uma solucao contem 0,5 mol de soluto em 2 L de solucao. Sua concentracao molar e:",
+          "options": {
+            "A": "0,10 mol/L",
+            "B": "0,25 mol/L",
+            "C": "0,50 mol/L",
+            "D": "1,0 mol/L",
+            "E": "2,5 mol/L"
+          },
+          "answer": "B",
+          "explanation": "A molaridade e dada por M = n/V. Assim, M = 0,5/2 = 0,25 mol/L.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "mat-005",
+          "subject": "Matematica",
+          "topic": "Progressao aritmetica",
+          "prompt": "Na PA 3, 7, 11, 15, ..., o decimo termo e:",
+          "options": {
+            "A": "35",
+            "B": "37",
+            "C": "39",
+            "D": "41",
+            "E": "43"
+          },
+          "answer": "C",
+          "explanation": "A razao e 4. O termo geral e a_n = 3 + (n-1)4. Para n=10, a_10 = 3 + 36 = 39.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "mat-002",
+          "subject": "Matematica",
+          "topic": "Funcao afim",
+          "prompt": "A funcao f(x)=2x-5 possui raiz igual a:",
+          "options": {
+            "A": "-5",
+            "B": "-2,5",
+            "C": "0",
+            "D": "2,5",
+            "E": "5"
+          },
+          "answer": "D",
+          "explanation": "A raiz ocorre quando f(x)=0. Entao 2x - 5 = 0, logo x = 5/2 = 2,5.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "bio-004",
+          "subject": "Biologia",
+          "topic": "Ecologia",
+          "prompt": "Em uma cadeia alimentar, a energia disponivel tende a diminuir a cada nivel trofico. Isso ocorre principalmente porque:",
+          "options": {
+            "A": "a materia organica e totalmente reciclada como energia",
+            "B": "parte da energia e perdida como calor no metabolismo dos organismos",
+            "C": "produtores nao realizam metabolismo",
+            "D": "consumidores primarios produzem glicose por fotossintese",
+            "E": "decompositores impedem a transferencia de energia"
+          },
+          "answer": "B",
+          "explanation": "A cada transferencia, os organismos usam parte da energia para suas atividades metabolicas, dissipando energia na forma de calor. Por isso, a energia diminui nos niveis superiores.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "fis-001",
+          "subject": "Fisica",
+          "topic": "Cinematica",
+          "prompt": "Um carro percorre 120 km em 2 horas, mantendo velocidade media constante. Sua velocidade media e:",
+          "options": {
+            "A": "30 km/h",
+            "B": "45 km/h",
+            "C": "60 km/h",
+            "D": "90 km/h",
+            "E": "120 km/h"
+          },
+          "answer": "C",
+          "explanation": "Velocidade media e distancia dividida pelo tempo: 120 km / 2 h = 60 km/h.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "bio-001",
+          "subject": "Biologia",
+          "topic": "Citologia",
+          "prompt": "Uma celula secretora de enzimas digestivas apresenta grande atividade de sintese proteica e exportacao. As organelas mais diretamente relacionadas a esse processo sao:",
+          "options": {
+            "A": "ribossomos livres e lisossomos",
+            "B": "reticulo endoplasmatico rugoso e complexo golgiense",
+            "C": "mitocondrias e peroxissomos",
+            "D": "centríolos e vacuolos",
+            "E": "cloroplastos e parede celular"
+          },
+          "answer": "B",
+          "explanation": "Proteinas destinadas a secrecao sao sintetizadas no reticulo endoplasmatico rugoso, processadas e empacotadas no complexo golgiense antes de seguirem em vesiculas para fora da celula.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "his-001",
+          "subject": "Historia",
+          "topic": "Brasil Republicano",
+          "prompt": "A politica do cafe com leite, na Primeira Republica brasileira, refere-se principalmente:",
+          "options": {
+            "A": "a alternancia de influencia entre oligarquias de Sao Paulo e Minas Gerais",
+            "B": "a reforma agraria nacional",
+            "C": "ao voto universal secreto",
+            "D": "a industrializacao planejada pelo Estado Novo",
+            "E": "ao fim do coronelismo"
+          },
+          "answer": "A",
+          "explanation": "A expressao indica a predominancia politica de grupos ligados a Sao Paulo, associado ao cafe, e Minas Gerais, associado a producao leiteira, no periodo da Primeira Republica.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "mat-003",
+          "subject": "Matematica",
+          "topic": "Probabilidade",
+          "prompt": "Ao lancar um dado honesto, a probabilidade de obter numero par e:",
+          "options": {
+            "A": "1/6",
+            "B": "1/3",
+            "C": "1/2",
+            "D": "2/3",
+            "E": "5/6"
+          },
+          "answer": "C",
+          "explanation": "Os resultados pares sao 2, 4 e 6, totalizando 3 possibilidades em 6 resultados equiprovaveis. A probabilidade e 3/6 = 1/2.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "his-003",
+          "subject": "Historia",
+          "topic": "Colonizacao",
+          "prompt": "No Brasil colonial, o sistema de plantation estava associado a:",
+          "options": {
+            "A": "pequena propriedade policultora voltada apenas ao consumo local",
+            "B": "latifundio, monocultura, escravidao e exportacao",
+            "C": "industrializacao pesada",
+            "D": "trabalho assalariado urbano predominante",
+            "E": "eleicoes diretas para governadores"
+          },
+          "answer": "B",
+          "explanation": "A plantation colonial combinava grandes propriedades, producao monocultora, mao de obra escravizada e orientacao para o mercado externo.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "bio-008",
+          "subject": "Biologia",
+          "topic": "Parasitologia",
+          "prompt": "A esquistossomose esta associada a colecoes de agua doce com caramujos, pois o caramujo atua como:",
+          "options": {
+            "A": "hospedeiro intermediario",
+            "B": "vetor mecanico exclusivo",
+            "C": "produtor da cadeia alimentar",
+            "D": "agente etiologico",
+            "E": "vacina natural"
+          },
+          "answer": "A",
+          "explanation": "O Schistosoma mansoni tem o ser humano como hospedeiro definitivo e caramujos Biomphalaria como hospedeiros intermediarios, nos quais fases larvais se desenvolvem.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "bio-005",
+          "subject": "Biologia",
+          "topic": "Fisiologia humana",
+          "prompt": "A bile auxilia a digestao de gorduras porque:",
+          "options": {
+            "A": "contem enzimas que quebram proteinas",
+            "B": "emulsifica lipideos, aumentando a superficie de contato para as lipases",
+            "C": "neutraliza anticorpos no intestino",
+            "D": "transforma glicose em glicogenio",
+            "E": "digere celulose no estomago"
+          },
+          "answer": "B",
+          "explanation": "A bile nao e enzimatica. Seus sais emulsificam gorduras, formando goticulas menores e facilitando a acao das lipases pancreaticas.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "geo-004",
+          "subject": "Geografia",
+          "topic": "Cartografia",
+          "prompt": "Em um mapa de escala 1:50.000, 1 cm no mapa corresponde no terreno a:",
+          "options": {
+            "A": "50 cm",
+            "B": "500 m",
+            "C": "5 km",
+            "D": "50 km",
+            "E": "500 km"
+          },
+          "answer": "B",
+          "explanation": "Na escala 1:50.000, 1 cm representa 50.000 cm reais. Como 50.000 cm equivalem a 500 m, essa e a resposta correta.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "his-004",
+          "subject": "Historia",
+          "topic": "Guerra Fria",
+          "prompt": "A Guerra Fria foi marcada principalmente por:",
+          "options": {
+            "A": "conflito ideologico e geopolitico entre Estados Unidos e Uniao Sovietica",
+            "B": "alianca militar unica entre capitalismo e socialismo",
+            "C": "ausencia de corrida armamentista",
+            "D": "fim das disputas por influencia mundial",
+            "E": "guerra direta permanente em territorio estadunidense"
+          },
+          "answer": "A",
+          "explanation": "A Guerra Fria envolveu disputa ideologica, economica, militar e tecnologica entre os blocos liderados por EUA e URSS, com conflitos indiretos e corrida armamentista.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "por-004",
+          "subject": "Portugues",
+          "topic": "Literatura",
+          "prompt": "Uma caracteristica recorrente do Realismo literario brasileiro e:",
+          "options": {
+            "A": "idealizacao extrema do amor romantico",
+            "B": "critica social e analise psicologica das personagens",
+            "C": "exclusividade de temas medievais",
+            "D": "ausencia de narrador",
+            "E": "defesa obrigatoria da fantasia pastoral"
+          },
+          "answer": "B",
+          "explanation": "O Realismo valoriza observacao critica da sociedade, abordagem menos idealizada das relacoes humanas e analise psicologica, como se ve em Machado de Assis.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "fis-004",
+          "subject": "Fisica",
+          "topic": "Optica",
+          "prompt": "Uma lente convergente pode formar imagem real quando o objeto esta:",
+          "options": {
+            "A": "entre a lente e o foco",
+            "B": "sobre o centro optico apenas",
+            "C": "alem do foco",
+            "D": "sempre em qualquer posicao",
+            "E": "somente atras da lente"
+          },
+          "answer": "C",
+          "explanation": "Para lentes convergentes, objetos colocados alem do foco podem formar imagens reais no lado oposto da lente. Entre a lente e o foco, a imagem e virtual.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "qui-006",
+          "subject": "Quimica",
+          "topic": "pH",
+          "prompt": "Uma solucao com pH = 3, a 25 C, e classificada como:",
+          "options": {
+            "A": "acida",
+            "B": "neutra",
+            "C": "basica",
+            "D": "saturada",
+            "E": "apolar"
+          },
+          "answer": "A",
+          "explanation": "A 25 C, pH menor que 7 indica solucao acida; pH igual a 7 indica neutralidade; pH maior que 7 indica solucao basica.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "mat-004",
+          "subject": "Matematica",
+          "topic": "Geometria plana",
+          "prompt": "Um triangulo retangulo tem catetos medindo 6 cm e 8 cm. A hipotenusa mede:",
+          "options": {
+            "A": "7 cm",
+            "B": "10 cm",
+            "C": "12 cm",
+            "D": "14 cm",
+            "E": "16 cm"
+          },
+          "answer": "B",
+          "explanation": "Pelo teorema de Pitagoras, h² = 6² + 8² = 36 + 64 = 100. Portanto, h = 10 cm.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "qui-003",
+          "subject": "Quimica",
+          "topic": "Funcoes organicas",
+          "prompt": "O grupo funcional caracteristico dos acidos carboxilicos e:",
+          "options": {
+            "A": "-OH ligado a carbono saturado",
+            "B": "-COOH",
+            "C": "-CHO",
+            "D": "-NH2",
+            "E": "-O- entre carbonos"
+          },
+          "answer": "B",
+          "explanation": "Acidos carboxilicos possuem o grupo carboxila, representado por -COOH, que combina carbonila e hidroxila no mesmo carbono.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "fis-003",
+          "subject": "Fisica",
+          "topic": "Calorimetria",
+          "prompt": "Quando um corpo recebe calor sem mudar de temperatura, o calor recebido esta associado principalmente:",
+          "options": {
+            "A": "a variacao de fase",
+            "B": "a diminuicao obrigatoria de massa",
+            "C": "ao desaparecimento da energia interna",
+            "D": "a ausencia de particulas",
+            "E": "a movimento retilineo uniforme"
+          },
+          "answer": "A",
+          "explanation": "Durante mudancas de fase, o calor latente altera a organizacao das particulas sem necessariamente alterar a temperatura.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "qui-001",
+          "subject": "Quimica",
+          "topic": "Estequiometria",
+          "prompt": "Na reacao 2 H2 + O2 -> 2 H2O, a quantidade de mols de H2 necessaria para consumir 3 mols de O2 e:",
+          "options": {
+            "A": "1 mol",
+            "B": "2 mols",
+            "C": "3 mols",
+            "D": "6 mols",
+            "E": "9 mols"
+          },
+          "answer": "D",
+          "explanation": "A proporcao estequiometrica e 2 mols de H2 para 1 mol de O2. Para 3 mols de O2, sao necessarios 6 mols de H2.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "bio-007",
+          "subject": "Biologia",
+          "topic": "Imunologia",
+          "prompt": "Vacinas protegem a populacao porque:",
+          "options": {
+            "A": "fornecem antibioticos permanentes",
+            "B": "estimulam resposta imune e memoria imunologica",
+            "C": "eliminam a necessidade de linfocitos",
+            "D": "impedem qualquer mutacao viral",
+            "E": "substituem anticorpos por hemacias"
+          },
+          "answer": "B",
+          "explanation": "Vacinas apresentam antigenos ou instrucoes para produzi-los, estimulando linfocitos e celulas de memoria. Assim, uma exposicao futura tende a gerar resposta mais rapida.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "qui-007",
+          "subject": "Quimica",
+          "topic": "Eletroquimica",
+          "prompt": "Em uma pilha galvanica em funcionamento espontaneo, ocorre:",
+          "options": {
+            "A": "oxidacao no catodo e reducao no anodo",
+            "B": "oxidacao no anodo e reducao no catodo",
+            "C": "apenas transferencia de protons",
+            "D": "consumo de eletrons no anodo e no catodo",
+            "E": "neutralizacao sem fluxo de eletrons"
+          },
+          "answer": "B",
+          "explanation": "Em pilhas, a oxidacao ocorre no anodo, liberando eletrons, e a reducao ocorre no catodo, consumindo eletrons.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "ing-002",
+          "subject": "Ingles",
+          "topic": "Vocabulary",
+          "prompt": "The best Portuguese translation for 'health care' in the context of public services is:",
+          "options": {
+            "A": "cuidado de saude",
+            "B": "conta bancaria",
+            "C": "transporte escolar",
+            "D": "pesquisa de mercado",
+            "E": "conserto de carros"
+          },
+          "answer": "A",
+          "explanation": "'Health care' means services, practices and systems related to taking care of people's health.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "geo-003",
+          "subject": "Geografia",
+          "topic": "Agricultura",
+          "prompt": "A modernizacao agricola no Brasil aumentou a produtividade, mas tambem se relaciona a:",
+          "options": {
+            "A": "fim da concentracao fundiaria",
+            "B": "uso de maquinas, insumos e possivel expulsao de trabalhadores do campo",
+            "C": "proibicao total de exportacoes",
+            "D": "abandono das monoculturas",
+            "E": "desaparecimento da agroindustria"
+          },
+          "answer": "B",
+          "explanation": "A modernizacao envolve mecanizacao, fertilizantes, defensivos e melhoramento, elevando produtividade. Em muitos contextos, tambem reduz demanda por mao de obra e reforca desigualdades.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "por-001",
+          "subject": "Portugues",
+          "topic": "Interpretacao",
+          "prompt": "Em um texto argumentativo, a tese corresponde:",
+          "options": {
+            "A": "ao exemplo menos importante",
+            "B": "ao ponto de vista central defendido pelo autor",
+            "C": "a uma palavra obrigatoriamente estrangeira",
+            "D": "a conclusao de um calculo matematico",
+            "E": "a lista de personagens"
+          },
+          "answer": "B",
+          "explanation": "A tese e a ideia central que o autor procura sustentar com argumentos, dados, exemplos e articulacao logica.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "geo-001",
+          "subject": "Geografia",
+          "topic": "Urbanizacao",
+          "prompt": "A macrocefalia urbana caracteriza-se por:",
+          "options": {
+            "A": "distribuicao perfeitamente equilibrada da populacao urbana",
+            "B": "concentracao excessiva de populacao e servicos em uma metropole",
+            "C": "ausencia de periferias",
+            "D": "predominio de atividades agricolas no centro urbano",
+            "E": "redução obrigatoria da rede de transportes"
+          },
+          "answer": "B",
+          "explanation": "Macrocefalia urbana e a concentracao desproporcional de populacao, renda, servicos e infraestrutura em uma grande cidade em relacao ao restante da rede urbana.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "qui-004",
+          "subject": "Quimica",
+          "topic": "Equilibrio quimico",
+          "prompt": "Em um equilibrio exotermico, o aumento da temperatura tende a deslocar o equilibrio:",
+          "options": {
+            "A": "para o sentido exotermico",
+            "B": "para o sentido endotermico",
+            "C": "sem qualquer alteracao",
+            "D": "sempre para os produtos",
+            "E": "sempre para os reagentes gasosos"
+          },
+          "answer": "B",
+          "explanation": "Pelo principio de Le Chatelier, aumentar a temperatura favorece o sentido que consome calor. Em equilibrio exotermico direto, o sentido inverso e endotermico.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "bio-003",
+          "subject": "Biologia",
+          "topic": "Evolucao",
+          "prompt": "O uso inadequado de antibioticos favorece o aumento de bacterias resistentes porque:",
+          "options": {
+            "A": "os antibioticos criam mutacoes dirigidas para resistencia em todas as bacterias",
+            "B": "as bacterias sensiveis sao eliminadas e as resistentes sobrevivem e se reproduzem",
+            "C": "a resistencia desaparece quando o antibiotico e interrompido",
+            "D": "bacterias nao sofrem selecao natural",
+            "E": "antibioticos transformam virus em bacterias"
+          },
+          "answer": "B",
+          "explanation": "A resistencia pode existir previamente por mutacao ou troca genetica. O antibiotico atua como pressao seletiva, eliminando as sensiveis e permitindo a proliferacao das resistentes.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        },
+        {
+          "id": "por-002",
+          "subject": "Portugues",
+          "topic": "Gramatica",
+          "prompt": "Na frase 'Os estudantes chegaram cedo', o sujeito e:",
+          "options": {
+            "A": "cedo",
+            "B": "chegaram",
+            "C": "Os estudantes",
+            "D": "estudantes chegaram",
+            "E": "chegaram cedo"
+          },
+          "answer": "C",
+          "explanation": "O sujeito e o termo sobre o qual se declara algo. Na frase, declara-se que 'Os estudantes' chegaram cedo.",
+          "source_notes": "",
+          "validation_notes": "Validacao estrutural concluida antes da resolucao."
+        }
+      ]
+    },
+    {
+      "id": "2026-06-18",
+      "date": "2026-06-18",
+      "title": "Simulado Unesp Odontologia - 18/06/2026",
+      "questionCount": 30,
+      "questions": [
+        {
+          "id": "his-002",
+          "subject": "Historia",
+          "topic": "Revolucao Industrial",
+          "prompt": "Uma consequencia social da Revolucao Industrial foi:",
+          "options": {
+            "A": "desaparecimento das cidades",
+            "B": "formacao de uma classe operaria urbana",
+            "C": "fim imediato do trabalho infantil em todos os paises",
+            "D": "retorno geral ao artesanato domestico",
+            "E": "proibicao da producao em fabricas"
+          },
+          "answer": "B",
+          "explanation": "A industrializacao concentrou trabalhadores em fabricas e cidades, contribuindo para a formacao do proletariado urbano e para novos conflitos trabalhistas.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "bio-005",
+          "subject": "Biologia",
+          "topic": "Fisiologia humana",
+          "prompt": "A bile auxilia a digestao de gorduras porque:",
+          "options": {
+            "A": "contem enzimas que quebram proteinas",
+            "B": "emulsifica lipideos, aumentando a superficie de contato para as lipases",
+            "C": "neutraliza anticorpos no intestino",
+            "D": "transforma glicose em glicogenio",
+            "E": "digere celulose no estomago"
+          },
+          "answer": "B",
+          "explanation": "A bile nao e enzimatica. Seus sais emulsificam gorduras, formando goticulas menores e facilitando a acao das lipases pancreaticas.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "mat-001",
+          "subject": "Matematica",
+          "topic": "Porcentagem",
+          "prompt": "Um produto de R$ 80,00 sofreu aumento de 25%. O novo preco e:",
+          "options": {
+            "A": "R$ 90,00",
+            "B": "R$ 95,00",
+            "C": "R$ 100,00",
+            "D": "R$ 105,00",
+            "E": "R$ 120,00"
+          },
+          "answer": "C",
+          "explanation": "25% de 80 e 20. Somando ao preco inicial, tem-se 80 + 20 = 100 reais.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "geo-002",
+          "subject": "Geografia",
+          "topic": "Climatologia",
+          "prompt": "O efeito estufa natural e importante porque:",
+          "options": {
+            "A": "mantem parte do calor na atmosfera, tornando a Terra habitavel",
+            "B": "elimina todos os gases atmosfericos",
+            "C": "impede completamente a entrada de radiacao solar",
+            "D": "ocorre apenas em areas deserticas",
+            "E": "substitui o ciclo da agua"
+          },
+          "answer": "A",
+          "explanation": "O efeito estufa natural retém parte da radiacao infravermelha emitida pela superficie, mantendo temperaturas adequadas a vida. O problema e sua intensificacao por emissoes humanas.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "qui-001",
+          "subject": "Quimica",
+          "topic": "Estequiometria",
+          "prompt": "Na reacao 2 H2 + O2 -> 2 H2O, a quantidade de mols de H2 necessaria para consumir 3 mols de O2 e:",
+          "options": {
+            "A": "1 mol",
+            "B": "2 mols",
+            "C": "3 mols",
+            "D": "6 mols",
+            "E": "9 mols"
+          },
+          "answer": "D",
+          "explanation": "A proporcao estequiometrica e 2 mols de H2 para 1 mol de O2. Para 3 mols de O2, sao necessarios 6 mols de H2.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "por-001",
+          "subject": "Portugues",
+          "topic": "Interpretacao",
+          "prompt": "Em um texto argumentativo, a tese corresponde:",
+          "options": {
+            "A": "ao exemplo menos importante",
+            "B": "ao ponto de vista central defendido pelo autor",
+            "C": "a uma palavra obrigatoriamente estrangeira",
+            "D": "a conclusao de um calculo matematico",
+            "E": "a lista de personagens"
+          },
+          "answer": "B",
+          "explanation": "A tese e a ideia central que o autor procura sustentar com argumentos, dados, exemplos e articulacao logica.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "qui-004",
+          "subject": "Quimica",
+          "topic": "Equilibrio quimico",
+          "prompt": "Em um equilibrio exotermico, o aumento da temperatura tende a deslocar o equilibrio:",
+          "options": {
+            "A": "para o sentido exotermico",
+            "B": "para o sentido endotermico",
+            "C": "sem qualquer alteracao",
+            "D": "sempre para os produtos",
+            "E": "sempre para os reagentes gasosos"
+          },
+          "answer": "B",
+          "explanation": "Pelo principio de Le Chatelier, aumentar a temperatura favorece o sentido que consome calor. Em equilibrio exotermico direto, o sentido inverso e endotermico.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "bio-004",
+          "subject": "Biologia",
+          "topic": "Ecologia",
+          "prompt": "Em uma cadeia alimentar, a energia disponivel tende a diminuir a cada nivel trofico. Isso ocorre principalmente porque:",
+          "options": {
+            "A": "a materia organica e totalmente reciclada como energia",
+            "B": "parte da energia e perdida como calor no metabolismo dos organismos",
+            "C": "produtores nao realizam metabolismo",
+            "D": "consumidores primarios produzem glicose por fotossintese",
+            "E": "decompositores impedem a transferencia de energia"
+          },
+          "answer": "B",
+          "explanation": "A cada transferencia, os organismos usam parte da energia para suas atividades metabolicas, dissipando energia na forma de calor. Por isso, a energia diminui nos niveis superiores.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "his-003",
+          "subject": "Historia",
+          "topic": "Colonizacao",
+          "prompt": "No Brasil colonial, o sistema de plantation estava associado a:",
+          "options": {
+            "A": "pequena propriedade policultora voltada apenas ao consumo local",
+            "B": "latifundio, monocultura, escravidao e exportacao",
+            "C": "industrializacao pesada",
+            "D": "trabalho assalariado urbano predominante",
+            "E": "eleicoes diretas para governadores"
+          },
+          "answer": "B",
+          "explanation": "A plantation colonial combinava grandes propriedades, producao monocultora, mao de obra escravizada e orientacao para o mercado externo.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "qui-006",
+          "subject": "Quimica",
+          "topic": "pH",
+          "prompt": "Uma solucao com pH = 3, a 25 C, e classificada como:",
+          "options": {
+            "A": "acida",
+            "B": "neutra",
+            "C": "basica",
+            "D": "saturada",
+            "E": "apolar"
+          },
+          "answer": "A",
+          "explanation": "A 25 C, pH menor que 7 indica solucao acida; pH igual a 7 indica neutralidade; pH maior que 7 indica solucao basica.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "mat-002",
+          "subject": "Matematica",
+          "topic": "Funcao afim",
+          "prompt": "A funcao f(x)=2x-5 possui raiz igual a:",
+          "options": {
+            "A": "-5",
+            "B": "-2,5",
+            "C": "0",
+            "D": "2,5",
+            "E": "5"
+          },
+          "answer": "D",
+          "explanation": "A raiz ocorre quando f(x)=0. Entao 2x - 5 = 0, logo x = 5/2 = 2,5.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "por-004",
+          "subject": "Portugues",
+          "topic": "Literatura",
+          "prompt": "Uma caracteristica recorrente do Realismo literario brasileiro e:",
+          "options": {
+            "A": "idealizacao extrema do amor romantico",
+            "B": "critica social e analise psicologica das personagens",
+            "C": "exclusividade de temas medievais",
+            "D": "ausencia de narrador",
+            "E": "defesa obrigatoria da fantasia pastoral"
+          },
+          "answer": "B",
+          "explanation": "O Realismo valoriza observacao critica da sociedade, abordagem menos idealizada das relacoes humanas e analise psicologica, como se ve em Machado de Assis.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "bio-001",
+          "subject": "Biologia",
+          "topic": "Citologia",
+          "prompt": "Uma celula secretora de enzimas digestivas apresenta grande atividade de sintese proteica e exportacao. As organelas mais diretamente relacionadas a esse processo sao:",
+          "options": {
+            "A": "ribossomos livres e lisossomos",
+            "B": "reticulo endoplasmatico rugoso e complexo golgiense",
+            "C": "mitocondrias e peroxissomos",
+            "D": "centríolos e vacuolos",
+            "E": "cloroplastos e parede celular"
+          },
+          "answer": "B",
+          "explanation": "Proteinas destinadas a secrecao sao sintetizadas no reticulo endoplasmatico rugoso, processadas e empacotadas no complexo golgiense antes de seguirem em vesiculas para fora da celula.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "bio-002",
+          "subject": "Biologia",
+          "topic": "Genetica",
+          "prompt": "Em uma especie, a caracteristica recessiva so aparece em individuos aa. Dois heterozigotos cruzam entre si. A probabilidade de um descendente apresentar o fenotipo recessivo e:",
+          "options": {
+            "A": "0%",
+            "B": "25%",
+            "C": "50%",
+            "D": "75%",
+            "E": "100%"
+          },
+          "answer": "B",
+          "explanation": "No cruzamento Aa x Aa, os genotipos esperados sao AA, Aa, Aa e aa. Apenas aa expressa o fenotipo recessivo, portanto a probabilidade e 1/4, ou 25%.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "geo-001",
+          "subject": "Geografia",
+          "topic": "Urbanizacao",
+          "prompt": "A macrocefalia urbana caracteriza-se por:",
+          "options": {
+            "A": "distribuicao perfeitamente equilibrada da populacao urbana",
+            "B": "concentracao excessiva de populacao e servicos em uma metropole",
+            "C": "ausencia de periferias",
+            "D": "predominio de atividades agricolas no centro urbano",
+            "E": "redução obrigatoria da rede de transportes"
+          },
+          "answer": "B",
+          "explanation": "Macrocefalia urbana e a concentracao desproporcional de populacao, renda, servicos e infraestrutura em uma grande cidade em relacao ao restante da rede urbana.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "his-001",
+          "subject": "Historia",
+          "topic": "Brasil Republicano",
+          "prompt": "A politica do cafe com leite, na Primeira Republica brasileira, refere-se principalmente:",
+          "options": {
+            "A": "a alternancia de influencia entre oligarquias de Sao Paulo e Minas Gerais",
+            "B": "a reforma agraria nacional",
+            "C": "ao voto universal secreto",
+            "D": "a industrializacao planejada pelo Estado Novo",
+            "E": "ao fim do coronelismo"
+          },
+          "answer": "A",
+          "explanation": "A expressao indica a predominancia politica de grupos ligados a Sao Paulo, associado ao cafe, e Minas Gerais, associado a producao leiteira, no periodo da Primeira Republica.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "ing-001",
+          "subject": "Ingles",
+          "topic": "Reading comprehension",
+          "prompt": "In the sentence 'Dental students must develop careful habits', the word 'must' expresses:",
+          "options": {
+            "A": "permission",
+            "B": "obligation",
+            "C": "past action",
+            "D": "impossibility",
+            "E": "comparison"
+          },
+          "answer": "B",
+          "explanation": "The modal verb 'must' usually indicates obligation, necessity or strong recommendation.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "qui-007",
+          "subject": "Quimica",
+          "topic": "Eletroquimica",
+          "prompt": "Em uma pilha galvanica em funcionamento espontaneo, ocorre:",
+          "options": {
+            "A": "oxidacao no catodo e reducao no anodo",
+            "B": "oxidacao no anodo e reducao no catodo",
+            "C": "apenas transferencia de protons",
+            "D": "consumo de eletrons no anodo e no catodo",
+            "E": "neutralizacao sem fluxo de eletrons"
+          },
+          "answer": "B",
+          "explanation": "Em pilhas, a oxidacao ocorre no anodo, liberando eletrons, e a reducao ocorre no catodo, consumindo eletrons.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "fis-004",
+          "subject": "Fisica",
+          "topic": "Optica",
+          "prompt": "Uma lente convergente pode formar imagem real quando o objeto esta:",
+          "options": {
+            "A": "entre a lente e o foco",
+            "B": "sobre o centro optico apenas",
+            "C": "alem do foco",
+            "D": "sempre em qualquer posicao",
+            "E": "somente atras da lente"
+          },
+          "answer": "C",
+          "explanation": "Para lentes convergentes, objetos colocados alem do foco podem formar imagens reais no lado oposto da lente. Entre a lente e o foco, a imagem e virtual.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "fis-001",
+          "subject": "Fisica",
+          "topic": "Cinematica",
+          "prompt": "Um carro percorre 120 km em 2 horas, mantendo velocidade media constante. Sua velocidade media e:",
+          "options": {
+            "A": "30 km/h",
+            "B": "45 km/h",
+            "C": "60 km/h",
+            "D": "90 km/h",
+            "E": "120 km/h"
+          },
+          "answer": "C",
+          "explanation": "Velocidade media e distancia dividida pelo tempo: 120 km / 2 h = 60 km/h.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "mat-004",
+          "subject": "Matematica",
+          "topic": "Geometria plana",
+          "prompt": "Um triangulo retangulo tem catetos medindo 6 cm e 8 cm. A hipotenusa mede:",
+          "options": {
+            "A": "7 cm",
+            "B": "10 cm",
+            "C": "12 cm",
+            "D": "14 cm",
+            "E": "16 cm"
+          },
+          "answer": "B",
+          "explanation": "Pelo teorema de Pitagoras, h² = 6² + 8² = 36 + 64 = 100. Portanto, h = 10 cm.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "por-003",
+          "subject": "Portugues",
+          "topic": "Figuras de linguagem",
+          "prompt": "A frase 'A cidade acordou assustada' apresenta:",
+          "options": {
+            "A": "personificacao",
+            "B": "pleonasmo vicioso",
+            "C": "onomatopeia",
+            "D": "eufemismo obrigatorio",
+            "E": "hiperbato matematico"
+          },
+          "answer": "A",
+          "explanation": "Atribui-se a cidade uma acao humana, acordar, e um estado emocional, assustada. Isso caracteriza personificacao ou prosopopeia.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "qui-002",
+          "subject": "Quimica",
+          "topic": "Solucoes",
+          "prompt": "Uma solucao contem 0,5 mol de soluto em 2 L de solucao. Sua concentracao molar e:",
+          "options": {
+            "A": "0,10 mol/L",
+            "B": "0,25 mol/L",
+            "C": "0,50 mol/L",
+            "D": "1,0 mol/L",
+            "E": "2,5 mol/L"
+          },
+          "answer": "B",
+          "explanation": "A molaridade e dada por M = n/V. Assim, M = 0,5/2 = 0,25 mol/L.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "fis-002",
+          "subject": "Fisica",
+          "topic": "Eletricidade",
+          "prompt": "Um resistor de 10 ohms e percorrido por corrente de 2 A. A tensao nos seus terminais e:",
+          "options": {
+            "A": "5 V",
+            "B": "10 V",
+            "C": "12 V",
+            "D": "20 V",
+            "E": "40 V"
+          },
+          "answer": "D",
+          "explanation": "Pela lei de Ohm, U = R.i. Logo, U = 10 x 2 = 20 V.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "mat-005",
+          "subject": "Matematica",
+          "topic": "Progressao aritmetica",
+          "prompt": "Na PA 3, 7, 11, 15, ..., o decimo termo e:",
+          "options": {
+            "A": "35",
+            "B": "37",
+            "C": "39",
+            "D": "41",
+            "E": "43"
+          },
+          "answer": "C",
+          "explanation": "A razao e 4. O termo geral e a_n = 3 + (n-1)4. Para n=10, a_10 = 3 + 36 = 39.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "bio-003",
+          "subject": "Biologia",
+          "topic": "Evolucao",
+          "prompt": "O uso inadequado de antibioticos favorece o aumento de bacterias resistentes porque:",
+          "options": {
+            "A": "os antibioticos criam mutacoes dirigidas para resistencia em todas as bacterias",
+            "B": "as bacterias sensiveis sao eliminadas e as resistentes sobrevivem e se reproduzem",
+            "C": "a resistencia desaparece quando o antibiotico e interrompido",
+            "D": "bacterias nao sofrem selecao natural",
+            "E": "antibioticos transformam virus em bacterias"
+          },
+          "answer": "B",
+          "explanation": "A resistencia pode existir previamente por mutacao ou troca genetica. O antibiotico atua como pressao seletiva, eliminando as sensiveis e permitindo a proliferacao das resistentes.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "geo-004",
+          "subject": "Geografia",
+          "topic": "Cartografia",
+          "prompt": "Em um mapa de escala 1:50.000, 1 cm no mapa corresponde no terreno a:",
+          "options": {
+            "A": "50 cm",
+            "B": "500 m",
+            "C": "5 km",
+            "D": "50 km",
+            "E": "500 km"
+          },
+          "answer": "B",
+          "explanation": "Na escala 1:50.000, 1 cm representa 50.000 cm reais. Como 50.000 cm equivalem a 500 m, essa e a resposta correta.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "qui-003",
+          "subject": "Quimica",
+          "topic": "Funcoes organicas",
+          "prompt": "O grupo funcional caracteristico dos acidos carboxilicos e:",
+          "options": {
+            "A": "-OH ligado a carbono saturado",
+            "B": "-COOH",
+            "C": "-CHO",
+            "D": "-NH2",
+            "E": "-O- entre carbonos"
+          },
+          "answer": "B",
+          "explanation": "Acidos carboxilicos possuem o grupo carboxila, representado por -COOH, que combina carbonila e hidroxila no mesmo carbono.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "bio-007",
+          "subject": "Biologia",
+          "topic": "Imunologia",
+          "prompt": "Vacinas protegem a populacao porque:",
+          "options": {
+            "A": "fornecem antibioticos permanentes",
+            "B": "estimulam resposta imune e memoria imunologica",
+            "C": "eliminam a necessidade de linfocitos",
+            "D": "impedem qualquer mutacao viral",
+            "E": "substituem anticorpos por hemacias"
+          },
+          "answer": "B",
+          "explanation": "Vacinas apresentam antigenos ou instrucoes para produzi-los, estimulando linfocitos e celulas de memoria. Assim, uma exposicao futura tende a gerar resposta mais rapida.",
+          "source_notes": "",
+          "validation_notes": ""
+        },
+        {
+          "id": "bio-006",
+          "subject": "Biologia",
+          "topic": "Botanica",
+          "prompt": "A abertura e o fechamento dos estomatos estao diretamente relacionados:",
+          "options": {
+            "A": "ao transporte de seiva elaborada no floema apenas",
+            "B": "a variacoes de turgor das celulas-guarda",
+            "C": "a contracao de musculos vegetais",
+            "D": "a ausencia de clorofila nas folhas",
+            "E": "ao desaparecimento da cuticula"
+          },
+          "answer": "B",
+          "explanation": "Os estomatos abrem quando as celulas-guarda ficam turgidas e fecham quando perdem agua. Isso regula trocas gasosas e perda de vapor d'agua.",
+          "source_notes": "",
+          "validation_notes": ""
+        }
+      ]
+    }
+  ]
+}

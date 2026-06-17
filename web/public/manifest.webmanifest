@@ -1,0 +1,25 @@
+{
+  "name": "Unesp Odonto",
+  "short_name": "Odonto",
+  "description": "Simulados Unesp para Odontologia com correção local.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0f5e4a",
+  "background_color": "#f7faf8",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

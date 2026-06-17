@@ -1,0 +1,5 @@
+{
+  "first_exam_date": "2026-06-16",
+  "exam_weekdays": [0, 2, 4],
+  "answers_in_app": true
+}

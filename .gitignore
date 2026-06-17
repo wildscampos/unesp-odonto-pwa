@@ -1,0 +1,12 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+src/**/*.egg-info/
+src/**/__pycache__/
+.env
+.env.*
+sources/*.pdf
+sources/extracted/
+output/
+*.log
