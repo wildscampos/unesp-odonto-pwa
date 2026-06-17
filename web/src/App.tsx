@@ -325,7 +325,7 @@ export function App() {
 }
 
 async function loadExams(): Promise<ExamPayload> {
-  const response = await fetch(`/data/exams.json?ts=${Date.now()}`, { cache: "no-store" });
+  const response = await fetch(`${import.meta.env.BASE_URL}data/exams.json?ts=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) throw new Error("Falha ao carregar provas");
   return response.json();
 }

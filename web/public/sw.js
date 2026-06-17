@@ -1,10 +1,11 @@
 const CACHE_VERSION = "unesp-odonto-v1";
+const BASE_PATH = "/unesp-odonto-pwa";
 const APP_SHELL = [
-  "/",
-  "/manifest.webmanifest",
-  "/data/exams.json",
-  "/icons/icon-192.png",
-  "/icons/icon-512.png"
+  `${BASE_PATH}/`,
+  `${BASE_PATH}/manifest.webmanifest`,
+  `${BASE_PATH}/data/exams.json`,
+  `${BASE_PATH}/icons/icon-192.png`,
+  `${BASE_PATH}/icons/icon-512.png`
 ];
 
 self.addEventListener("install", (event) => {
@@ -26,11 +27,11 @@ self.addEventListener("fetch", (event) => {
   const request = event.request;
 
   if (request.mode === "navigate") {
-    event.respondWith(fetch(request).catch(() => caches.match("/")));
+    event.respondWith(fetch(request).catch(() => caches.match(`${BASE_PATH}/`)));
     return;
   }
 
-  if (new URL(request.url).pathname === "/data/exams.json") {
+  if (new URL(request.url).pathname === `${BASE_PATH}/data/exams.json`) {
     event.respondWith(
       fetch(request)
         .then((response) => {
