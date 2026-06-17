@@ -153,9 +153,9 @@ export function App() {
     <main className="app">
       <header className="topbar">
         <div className="brand-lockup">
-          <img className="brand-mark" src={`${import.meta.env.BASE_URL}icons/icon-192.png`} alt="" />
+          <img className="brand-mark" src={`${import.meta.env.BASE_URL}icons/icon-192-v2.png`} alt="" />
           <div>
-            <h1>Unesp Odonto</h1>
+            <h1>Simulados UNESP</h1>
             <p>{nextExamText}</p>
           </div>
         </div>

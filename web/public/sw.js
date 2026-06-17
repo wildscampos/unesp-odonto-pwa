@@ -1,11 +1,11 @@
-const CACHE_VERSION = "unesp-odonto-v4";
+const CACHE_VERSION = "simulados-unesp-v5";
 const BASE_PATH = "/unesp-odonto-pwa";
 const APP_SHELL = [
   `${BASE_PATH}/`,
   `${BASE_PATH}/manifest.webmanifest`,
   `${BASE_PATH}/data/exams.json`,
-  `${BASE_PATH}/icons/icon-192.png`,
-  `${BASE_PATH}/icons/icon-512.png`
+  `${BASE_PATH}/icons/icon-192-v2.png`,
+  `${BASE_PATH}/icons/icon-512-v2.png`
 ];
 
 self.addEventListener("install", (event) => {
