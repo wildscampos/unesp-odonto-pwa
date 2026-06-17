@@ -2,8 +2,6 @@ import {
   BookOpen,
   CalendarDays,
   CheckCircle2,
-  ChevronLeft,
-  ChevronRight,
   ClipboardCheck,
   Home,
   RotateCcw,
@@ -205,16 +203,10 @@ export function App() {
       {tab === "exam" && (
         <section className="screen exam-screen">
           <div className="question-tools">
-            <button className="icon-button" onClick={() => setCurrentIndex(Math.max(0, currentIndex - 1))} aria-label="Questão anterior">
-              <ChevronLeft size={22} />
-            </button>
             <div>
               <span>Questão {currentIndex + 1} de {selectedExam.questions.length}</span>
               <strong>{currentQuestion.subject} · {currentQuestion.topic}</strong>
             </div>
-            <button className="icon-button" onClick={() => setCurrentIndex(Math.min(selectedExam.questions.length - 1, currentIndex + 1))} aria-label="Próxima questão">
-              <ChevronRight size={22} />
-            </button>
           </div>
 
           <article className="question-card">
@@ -232,6 +224,23 @@ export function App() {
               ))}
             </div>
           </article>
+
+          <div className="question-nav-actions">
+            <button
+              className="secondary-action"
+              onClick={() => setCurrentIndex(Math.max(0, currentIndex - 1))}
+              disabled={currentIndex === 0}
+            >
+              Anterior
+            </button>
+            <button
+              className="secondary-action"
+              onClick={() => setCurrentIndex(Math.min(selectedExam.questions.length - 1, currentIndex + 1))}
+              disabled={isLastQuestion}
+            >
+              Próxima
+            </button>
+          </div>
 
           <div className="exam-actions">
             <button className="secondary-action" onClick={() => setTab("home")}>Salvar e continuar depois</button>

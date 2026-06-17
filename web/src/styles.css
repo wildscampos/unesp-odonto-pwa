@@ -240,10 +240,8 @@ button {
 }
 
 .question-tools {
-  display: grid;
-  grid-template-columns: 56px 1fr 56px;
+  display: block;
   align-items: center;
-  gap: 10px;
 }
 
 .question-tools div {
@@ -263,17 +261,6 @@ button {
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 1.04rem;
-}
-
-.icon-button {
-  width: 56px;
-  height: 56px;
-  display: grid;
-  place-items: center;
-  border: 1px solid #dce6e2;
-  border-radius: 8px;
-  background: #ffffff;
-  color: #17352e;
 }
 
 .question-card,
@@ -332,6 +319,22 @@ button {
 .option.selected span {
   color: #ffffff;
   background: #0f5e4a;
+}
+
+.question-nav-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.question-nav-actions .secondary-action {
+  width: 100%;
+}
+
+.secondary-action:disabled {
+  color: #87948f;
+  background: #eef2f0;
+  cursor: not-allowed;
 }
 
 .exam-actions {
