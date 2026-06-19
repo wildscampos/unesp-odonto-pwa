@@ -13,6 +13,34 @@ New-Item -ItemType Directory -Force -Path $LogDir | Out-Null
 $IsoDate = $Date.ToString("yyyy-MM-dd")
 $LogPath = Join-Path $LogDir "auto-generate-$IsoDate.log"
 
+function Stop-OllamaWorkload {
+  param(
+    [string]$OllamaExe,
+    [string[]]$Models
+  )
+
+  $UniqueModels = @($Models | Where-Object { $_ } | Select-Object -Unique)
+  if ($OllamaExe -and (Test-Path $OllamaExe)) {
+    foreach ($Model in $UniqueModels) {
+      try {
+        Write-Host "Releasing Ollama model $Model..."
+        & $OllamaExe stop $Model 2>$null | Out-Null
+      } catch {
+        Write-Host "Could not release Ollama model ${Model}: $($_.Exception.Message)"
+      }
+    }
+  }
+
+  Get-Process -Name "llama-server" -ErrorAction SilentlyContinue | ForEach-Object {
+    try {
+      Write-Host "Stopping remaining llama-server process PID $($_.Id)..."
+      Stop-Process -Id $_.Id -Force -ErrorAction Stop
+    } catch {
+      Write-Host "Could not stop llama-server PID $($_.Id): $($_.Exception.Message)"
+    }
+  }
+}
+
 Start-Transcript -Path $LogPath -Append | Out-Null
 
 try {
@@ -135,5 +163,6 @@ try {
   Write-Error $_
   exit 1
 } finally {
+  Stop-OllamaWorkload -OllamaExe $OllamaExe -Models @($env:OLLAMA_MODEL, $env:OLLAMA_VALIDATOR_MODEL)
   Stop-Transcript | Out-Null
 }
